@@ -17,7 +17,7 @@ const MealItemForm = () => {
         }}
       />
       <button>
-        <i class="bx bxs-plus-circle"></i> Add
+        <i className="bx bxs-plus-circle"></i> Add
       </button>
     </form>
   );
