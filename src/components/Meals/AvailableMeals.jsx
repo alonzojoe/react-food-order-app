@@ -33,8 +33,8 @@ const mealsData = [
 const AvailableMeals = () => {
   const mealList = mealsData.map((meal) => (
     <MealItem
-      key={meal.id}
       id={meal.id}
+      key={meal.id}
       name={meal.name}
       description={meal.description}
       price={meal.price}
